@@ -7,11 +7,11 @@ public class BaseBallTeam {
      private int lose;    // 負け数
      private int draw;    // 引分け数
 
-     // コントラスタ(念のため)
+     // コンストラクタ(念のため)
      BaseBallTeam(){
      }
 
-     // コントラスタ
+     // コンストラクタ
      BaseBallTeam(String name, int win, int lose, int draw){
          this.name = name;
          this.win  = win;
